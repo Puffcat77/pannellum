@@ -10,57 +10,42 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Simple pannellum example (<a href="https://pannellum.org/documentation/examples/simple-example/">Tutorial</a>)</h1>
-    <div id="simple-panorama" class="panorama">
-        <script>
-            pannellum.viewer('simple-panorama', {
-                "type": "equirectangular",
-                "panorama": "panoramas/1.jpg",
-                "author": "Akopyan Aleksandr",
-                "title": "Simple panorama"
-            });
-        </script>
-    </div>
-    <h1>Auto loading pannellum example (<a href="https://pannellum.org/documentation/examples/auto-load/">Tutorial</a>)</h1>
-    <div id="autoload-panorama" class="panorama">
-        <script>
-            pannellum.viewer('autoload-panorama', {
-                "type": "equirectangular",
-                "panorama": "panoramas/1.jpg",
-                "autoLoad": true,
-                "author": "Akopyan Aleksandr",
-                "title": "Auto loading panorama"
-            });
-        </script>
-    </div>
-    <h1>Auto rotating pannellum example (<a href="https://pannellum.org/documentation/examples/auto-rotate/">Tutorial</a>)</h1>
-    <div id="autorotating-panorama" class="panorama">
-        <script>
-            pannellum.viewer('autorotating-panorama', {
-                "type": "equirectangular",
-                "panorama": "panoramas/1.jpg",
-                "autoLoad": true,
-                //"autoRotateInactivityDelay": 10
-                "autoRotate": 2,
-                "author": "Akopyan Aleksandr",
-                "title": "Auto rotating panorama"
-            });
-        </script>
-    </div>
-    <h1>Partial pannellum example (<a href="https://pannellum.org/documentation/examples/simple-example/">Tutorial</a>)</h1>
-    <div id="partial-panorama" class="panorama">
-        <script>
-            pannellum.viewer('partial-panorama', {
-                "type": "equirectangular",
-                "panorama": "panoramas/1.jpg",
-                "autoLoad": true,
-                "author": "Akopyan Aleksandr",
-                "title": "Simple panorama",
-                "haov": 149.87,
-                "vaov": 90,
-                "vOffset": 10
-            });
-        </script>
+    <h1>Pannellum examples</h1>
+    <div id="examples">
+        <div class="exmaple">
+            <h2>Simple pannellum example (<a href="https://pannellum.org/documentation/examples/simple-example/">Tutorial</a>)</h2>
+            <div id="simple-panorama" class="panorama">
+                <script src="scripts/example 1.js"></script>
+            </div>
+        </div>
+        
+        <div class="exmaple">
+            <h2>Auto loading pannellum example (<a href="https://pannellum.org/documentation/examples/auto-load/">Tutorial</a>)</h2>
+            <div id="autoload-panorama" class="panorama">
+                <script src="scripts/example 2.js"></script>
+            </div>
+        </div>
+        
+        <div class="exmaple">
+            <h2>Auto rotating pannellum example (<a href="https://pannellum.org/documentation/examples/auto-rotate/">Tutorial</a>)</h2>
+            <div id="autorotating-panorama" class="panorama">
+            <script src="scripts/example 3.js"></script>
+            </div>
+        </div>
+        
+        <div class="exmaple">
+            <h2>Partial pannellum example (<a href="https://pannellum.org/documentation/examples/partial-panorama/">Tutorial</a>)</h2>
+            <div id="partial-panorama" class="panorama">
+                <script src="scripts/example 4.js"></script>
+            </div>
+        </div>
+        
+        <div class="exmaple">
+            <h2>Hot spots pannellum example (<a href="https://pannellum.org/documentation/examples/hot-spots/">Tutorial</a>)</h2>
+            <div id="panorama-with-hot-spots" class="panorama">
+            <script src="scripts/example 5.js"></script>
+            </div>
+        </div>
     </div>
 </body>
 </html>
