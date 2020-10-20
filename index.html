@@ -29,5 +29,17 @@
             });
         </script>
     </div>
+    <h1>Autorotating pannellum example (<a href="https://pannellum.org/documentation/examples/auto-rotate/">Tutorial</a>)</h1>
+    <div id="autorotating-panorama" class="panorama">
+        <script>
+            pannellum.viewer('autorotating-panorama', {
+                "type": "equirectangular",
+                "panorama": "panoramas/1.jpg",
+                "autoLoad": true,
+                //"autoRotateInactivityDelay": 10
+                "autoRotate": 2
+            });
+        </script>
+    </div>
 </body>
 </html>
