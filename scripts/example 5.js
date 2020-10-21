@@ -2,7 +2,7 @@ pannellum.viewer('panorama-with-hot-spots', {
     "type": "equirectangular",
     "panorama": "panoramas/1.jpg",
     "autoLoad": true,
-    // "hotSpotDebug": true, // for debug
+    "hotSpotDebug": true, // for debug
     "hotSpots": [
         {
             "pitch": -39.20,
